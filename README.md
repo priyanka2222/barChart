@@ -4,7 +4,7 @@ Cloning of [Nike IN](https://nike.com/in)
 --
 # Images
 * Home Page
-![Images](Screen-Shot/Home.png)
+![Images](Images/Home.png)
 
 ## Pages Builds:
 * Home
