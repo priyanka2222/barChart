@@ -1,18 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactECharts from 'echarts-for-react';
 import data from './Wine-Data.json'
 
-let data1 = [];
-let data2 = [];
-data1.push(['Alcohol', 'Malic Acid'])
-for(let i = 0; i < data.length; i++) {
-  data1.push([data[i]['Alcohol'],(data[i]['Malic Acid'])])
-  data2.push([data[i]['Color intensity'],data[i]['Hue']])
-}
-// console.log("Data 1", data1);
-// console.log("Data 2", data2);
 function Page() {
-
+  let [data1, setData1] = useState([]);
+  let [data2, setData2] = useState([]);
+  useEffect (() =>{
+  setData1(data.map((item) => {
+      return ([item['Alcohol'],item['Malic Acid']])
+  }))
+  setData2(data.map((item) => {
+    return ([item['Color intensity'],item['Hue']])
+}))
+  }, [])
+  // console.log("data1 : ",data1)
+  // console.log("data2 : ",data2)
   const options1 = {
     grid: { left: '10%', top: '15%', width: '63%', height: '63%'},
     xAxis:{
