@@ -14,7 +14,7 @@ for(let i = 0; i < data.length; i++) {
 function Page() {
 
   const options1 = {
-    grid: { left: '10%', top: '15%', width: '73%', height: '73%', margin: '10%' },
+    grid: { left: '10%', top: '15%', width: '63%', height: '63%'},
     xAxis:{
       type: 'value',
         name: 'Color Intensity',
@@ -35,7 +35,7 @@ function Page() {
     dataset: {
       source: data1
     },
-    grid: { left: '10%', top: '15%', width: '73%', height: '73%', margin: '10%' },
+    grid: { left: '10%', top: '10%', width: '63%', height: '63%' },
     xAxis: { 
       name: 'Alcohol',
       min: 0,
