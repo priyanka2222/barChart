@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/barChart/static/css/main.d5de2868.css",
+    "main.js": "/barChart/static/js/main.82baf43a.js",
+    "static/js/787.fbd00645.chunk.js": "/barChart/static/js/787.fbd00645.chunk.js",
+    "index.html": "/barChart/index.html",
+    "main.d5de2868.css.map": "/barChart/static/css/main.d5de2868.css.map",
+    "main.82baf43a.js.map": "/barChart/static/js/main.82baf43a.js.map",
+    "787.fbd00645.chunk.js.map": "/barChart/static/js/787.fbd00645.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5de2868.css",
+    "static/js/main.82baf43a.js"
+  ]
+}
